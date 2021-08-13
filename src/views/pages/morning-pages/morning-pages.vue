@@ -1,5 +1,7 @@
 <template>
-    <div class="morning-pages"></div>
+    <div class="morning-pages">
+        <div></div>
+    </div>
 </template>
 
 <script lang="ts">
