@@ -1,6 +1,6 @@
 <template>
     <div class="morning-pages">
-        <div></div>
+        <div>Утренние страницы</div>
     </div>
 </template>
 
@@ -16,8 +16,10 @@ export default class MorningPagesComponent extends Vue {
 }
 </script>
 
-<style lang="less">
+<style lng="less">
 .morning-pages {
-    background-color: pink;
+    background-color: #67be84;
+    width: 100%;
+    height: 100px;
 }
 </style>
