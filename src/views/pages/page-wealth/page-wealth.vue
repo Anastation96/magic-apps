@@ -5,14 +5,15 @@
 </template>
 
 <script lang="ts">
-import Vue from "vue";
-// import { Component } from "vue-property-decorator";
+import {Component, Vue} from 'vue-property-decorator';
 
-// @Component({
-//     name: "page-wealth",
-// })
+@Component({
+  name: 'page-wealth',
+})
 export default class PageWealthComponent extends Vue {
-    
+  created() {
+    console.log('page wealth created');
+  }  
 }
 </script>
 

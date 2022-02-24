@@ -5,14 +5,15 @@
 </template>
 
 <script lang="ts">
-import Vue from "vue";
-// import { Component } from "vue-property-decorator";
+import {Component, Vue} from 'vue-property-decorator';
 
-// @Component({
-//     name: "page-mail-to-angel",
-// })
+@Component({
+  name: 'page-self-working',
+})
 export default class PageSelfWorkingComponent extends Vue {
-    
+  created() {
+    console.log('page self working created');
+  }  
 }
 </script>
 
